@@ -1,7 +1,5 @@
 services:
   webapp:
-    image: docker1
+    build: .
     ports:
       - "5000:5000"
-    volumes:
-      - "/data"
